@@ -1,0 +1,17 @@
+/* Import all styles from BuyActionWindow.css first if your build allows, 
+   or copy the contents and change the specific button color */
+
+@import "./BuyActionWindow.css";
+
+.sell-container .header {
+    background: #ff5722 !important; /* Orange for Sell */
+}
+
+.btn-orange {
+    background: #ff5722;
+    color: #fff;
+}
+
+.btn-orange:hover {
+    background: #ff7043;
+}
